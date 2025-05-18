@@ -20,6 +20,11 @@ import {
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
+type CircularSliderUpdate = {
+    startAngle: number;
+    angleLength: number;
+};
+
 const ApplesBedTime = () => {
     const initialValues = useMemo(() => {
         const startTime = '23:00';
@@ -56,7 +61,7 @@ const ApplesBedTime = () => {
         return `${hours} hour${hours > 1 ? 's' : ''} ${minutes} min`;
     });
 
-    const handleUpdate = useCallback(({ startAngle: newStart, angleLength: newLength }) => {
+    const handleUpdate = useCallback(({ startAngle: newStart, angleLength: newLength }:CircularSliderUpdate) => {
         startAngle.value = roundAngleToFives(newStart);
         angleLength.value = roundAngleToFives(newLength);
     }, []);

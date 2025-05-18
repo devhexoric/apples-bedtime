@@ -1,19 +1,24 @@
-# 🛏️ Bedtime Circular Slider – Apple-style Time Picker in Expo React Native
+# 🛏️ Apple Bedtime Clock UI – Circular Time Picker in React Native (Expo)
 
-A performant and visually appealing **Apple-style Bedtime Circular Slider** built for **Expo + React Native**. Ideal for sleep tracking, time range selection, or any UI needing intuitive circular time input.
+A sleek, interactive **Apple-style Bedtime Clock UI** built with **React Native** and **Expo**. Ideal for **sleep tracking apps**, **bedtime planners**, or any interface that needs a **circular time range selector**.
 
-Built using `react-native-svg`, `react-native-gesture-handler`, and `react-native-reanimated` — all fully supported in Expo.
+Inspired by the iOS **Bedtime tab** from Apple's Clock app, this component supports smooth gestures, elegant transitions, and full Expo compatibility.
+
+---
+
+![Apple-style Bedtime UI in React Native](./Banner.png)
 
 ---
 
 ## 🚀 Features
 
-- 🎯 Gesture-driven start & end thumbs with fluid animations
-- 🕒 Apple-style Bedtime UI with smooth arc drawing
-- 🌙 Midnight overlap support (wrap-around angles)
-- 🎨 Fully customizable radius, stroke width, colors, and resolution
-- ⚡ Reanimated & SVG-powered for high performance
-- ✅ Expo-compatible (no eject required)
+- 🕒 Apple Bedtime-style **circular time picker**
+- 🌙 **Midnight overlap** support (wrap-around arc)
+- 🎯 Gesture-driven **start & end handles**
+- ⚡ Powered by `react-native-reanimated` & `react-native-svg`
+- 🎨 Customizable radius, colors, stroke, and resolution
+- ✅ Works in **Expo** – no eject required
+- 📱 Perfect for sleep apps, productivity tools, and UI demos
 
 ---
 
